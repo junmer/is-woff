@@ -46,6 +46,13 @@ Accepts a Buffer (Node.js) or Uint8Array.
 
 It only needs the first 8 bytes.
 
+## Test
+
+```sh
+$ npm test
+```
+
+> test file from [Font-Awesome](https://github.com/FortAwesome/Font-Awesome)
 
 ## License
 
