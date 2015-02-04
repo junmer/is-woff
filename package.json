@@ -18,12 +18,13 @@
   ],
   "keywords": [
     "font",
+    "font-face",
+    "sfnt",
     "woff",
     "type",
     "detect",
     "check",
     "is",
-    "exif",
     "binary",
     "buffer",
     "uint8array"
