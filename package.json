@@ -1,6 +1,6 @@
 {
   "name": "is-woff",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Check if a Buffer/Uint8Array is WOFF",
   "license": "MIT",
   "repository": "junmer/is-woff",
