@@ -1,6 +1,6 @@
 {
   "name": "is-woff",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Check if a Buffer/Uint8Array is WOFF",
   "license": "MIT",
   "repository": "junmer/is-woff",
@@ -11,7 +11,7 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha test.js"
   },
   "files": [
     "index.js"

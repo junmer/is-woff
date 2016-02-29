@@ -8,12 +8,14 @@ function check(filename) {
 }
 
 it('should detect WOFF from Buffer', function () {
-	assert(check('fontawesome-webfont.woff'));
+	assert(check('fixture/fontawesome-webfont.woff'));
+});
+
+it('should detect WOFF(OTTO) from Buffer', function () {
+	assert(check('fixture/young-heart.woff'));
 });
 
 it('should not detect WOFF from WOFF2 Buffer', function () {
-	assert(!check('fontawesome-webfont.woff2'));
+	assert(!check('fixture/fontawesome-webfont.woff2'));
 });
-
-
 
